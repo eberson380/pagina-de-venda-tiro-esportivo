@@ -22,7 +22,7 @@ body {
   margin: 20px auto 0px;
   text-align: center;
   padding: 16px 0px;
-  background-image: url(./assets/fundo\ camuflado\ grande.jpg)
+  background-image: url(./assets/fundo\ camuflado\ grande.jpg);
 }
 
 #profile {
@@ -36,7 +36,6 @@ body {
 /*placas da promoções*/
 #container p {
   background-color: green;
-
 }
 
 /*titulo dos itens*/
@@ -64,5 +63,6 @@ body {
   margin: 3px 300px;
   border-radius: 50px;
   background-color: yellow;
-
+  text-decoration: none;
+  color: blue;
 }
