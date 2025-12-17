@@ -33,6 +33,10 @@ body {
   background-color: green;
 }
 
+#container span1 {
+  background-color:green
+}
+
 /*placas da promoções*/
 #container p {
   background-color: green;
