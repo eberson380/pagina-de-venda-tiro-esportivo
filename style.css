@@ -6,7 +6,7 @@
 
 body {
   /*background-image: url(./assets/fundo\ camuflado\ grande.jpg);*/
-  background-color: white;
+  background-color: black;
   background-size: cove;
   background-position: top center;
   background-repeat: repeat;
@@ -18,14 +18,32 @@ body {
   flex-direction: column;
   gap: 20px;
   width: 100%;
-  max-width: 2000px;
+  max-width: 1000px;
   margin: 20px auto 0px;
   text-align: center;
   padding: 16px 0px;
 }
 
-#container {
-  width: 100%;
-  max-width: 2000px;
-  margin: 20px auto 0px;
+#profile1 {
+  display: block;
+  padding: 5px;
+  margin: 20px 300px;
+  border-radius: 50px;
+  background-color: green;
+}
+
+#profile2 p2 {
+  display: block;
+  padding: 5px;
+  margin: 20px 300px;
+  border-radius: 50px;
+  background-color: green;
+}
+
+#container p1 {
+}
+
+#container p2 {
+}
+#container p3 {
 }
