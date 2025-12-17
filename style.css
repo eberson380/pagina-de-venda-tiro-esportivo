@@ -67,3 +67,61 @@ body {
   text-decoration: none;
   color: blue;
 }
+
+@media (max-width: 1260px) {
+  #container {
+    color: white;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    /*background-color: white;*/
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px auto 0px;
+    text-align: center;
+    padding: 10px 0px;
+    background-image: url(./assets/fundo\ camuflado\ grande.jpg);
+  }
+
+  #profile {
+    display: block;
+    padding: 5px;
+    margin: 70px 100px 0px;
+    border-radius: 20px;
+    background-color: green;
+  }
+
+  /*placas da promoções*/
+  #container p {
+    background-color: green;
+  }
+
+  /*titulo dos itens*/
+  #container span {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    display: block;
+    padding: 1px;
+    margin: 3px 30px;
+    border-radius: 10px;
+    background-color: green;
+  }
+
+  /*fotos dos itens*/
+  #container img {
+    max-width: 400px;
+    margin: 10px auto 0px;
+    border: 10px solid green;
+  }
+
+  /*link do mercado livre*/
+  #container a {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    display: block;
+    margin: 3px 100px;
+    border-radius: 10px;
+    background-color: yellow;
+    text-decoration: none;
+    color: blue;
+  }
+}
