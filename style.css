@@ -39,10 +39,11 @@ body {
   border-radius: 50px;
 }
 
-#container p1 {
+#container img {
+  max-width: 400px;
+  margin: 20px auto 0px;
 }
 
-#container p2 {
-}
-#container p3 {
+#container a {
+  display: block;
 }
