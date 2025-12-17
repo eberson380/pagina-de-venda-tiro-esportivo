@@ -84,7 +84,7 @@ body {
 
   #profile {
     display: block;
-    margin: 70px 100px 0px;
+    margin: 70px 50px 0px;
   }
   
   /*placas da promoções*/
@@ -99,8 +99,8 @@ body {
     font-size: 20px;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     display: block;
-    padding: 5px;
-    margin: 3px 30px;
+    padding: 0px 5px;
+    margin: 3px 20px;
     border-radius: 10px;
     background-color: green;
   }
@@ -109,7 +109,7 @@ body {
   #container img {
     max-width: 370px;
     margin: 10px auto 0px;
-    border: 10px solid green;
+    border: 5px solid green;
   }
 
   /*link do mercado livre*/
