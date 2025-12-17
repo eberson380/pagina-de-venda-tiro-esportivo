@@ -13,17 +13,16 @@ body {
 }
 
 #container {
+  color: white;
   font-size: 30px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  /*background-color: white;*/
   width: 100%;
   max-width: 1000px;
   margin: 20px auto 0px;
   text-align: center;
   padding: 16px 0px;
+  background-image: url(./assets/fundo\ camuflado\ grande.jpg)
 }
 
 #profile {
@@ -34,18 +33,21 @@ body {
   background-color: green;
 }
 
-#container span0 {
-  ;
+/*placas da promoções*/
+#container p {
+  background-color: green;
+
 }
 
 /*titulo dos itens*/
 #container span {
   font-size: 30px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   display: block;
-  padding: 5px;
-  margin: 20px 300px;
+  padding: 1px;
+  margin: 3px 200px;
   border-radius: 50px;
+  background-color: green;
 }
 
 /*fotos dos itens*/
@@ -57,6 +59,10 @@ body {
 /*link do mercado livre*/
 #container a {
   font-size: 30px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   display: block;
+  margin: 3px 300px;
+  border-radius: 50px;
+  background-color: yellow;
+
 }
