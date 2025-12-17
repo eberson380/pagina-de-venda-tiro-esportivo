@@ -32,12 +32,11 @@ body {
   background-color: green;
 }
 
-#container span{
+#container span {
   display: block;
   padding: 5px;
   margin: 20px 300px;
   border-radius: 50px;
-  background-color: green;
 }
 
 #container p1 {
