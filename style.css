@@ -13,6 +13,8 @@ body {
 }
 
 #container {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -27,23 +29,34 @@ body {
 #profile {
   display: block;
   padding: 5px;
-  margin: 20px 300px;
+  margin: 70px 300px 0px;
   border-radius: 50px;
   background-color: green;
 }
 
+#container span0 {
+  ;
+}
+
+/*titulo dos itens*/
 #container span {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   display: block;
   padding: 5px;
   margin: 20px 300px;
   border-radius: 50px;
 }
 
+/*fotos dos itens*/
 #container img {
   max-width: 400px;
   margin: 20px auto 0px;
 }
 
+/*link do mercado livre*/
 #container a {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   display: block;
 }
