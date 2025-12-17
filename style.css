@@ -108,7 +108,7 @@ body {
 
   /*fotos dos itens*/
   #container img {
-    max-width: 400px;
+    max-width: 370px;
     margin: 10px auto 0px;
     border: 10px solid green;
   }
