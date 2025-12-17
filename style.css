@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 186, 219);
+  background-size: cove;
+  background-position: top center;
+  background-repeat: repeat;
+}
+
+#container {
+  width: 100%;
+  max-width: 2000px;
+  margin: 20px auto 0px;
+  text-align: center;
+}
+
+
