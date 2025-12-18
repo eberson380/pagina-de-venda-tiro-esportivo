@@ -59,6 +59,7 @@ body {
     border-color: red;
   }
 }
+
 /*placas da promoções*/
 #container p {
   background-color: red;
@@ -110,6 +111,30 @@ body {
     padding: 10px 0px;
     background-image: url(./assets/1\ -\ fundo-de-camuflagem\ -\ Copia.jpg);
   }
+
+  .profile1 {
+  border-radius: 20px;
+  border: 30px solid red;
+  padding: 0px;
+  display: inline-block;
+  animation: mudaCor 2s infinite;
+  margin: 70px 20px 0px;
+}
+
+@keyframes mudaCor {
+  0% {
+    border-color: red;
+  }
+  33% {
+    border-color: blue;
+  }
+  66% {
+    border-color: green;
+  }
+  100% {
+    border-color: red;
+  }
+}
 
   #profile {
     display: block;
