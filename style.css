@@ -30,12 +30,6 @@ body {
   margin: 150px 300px 0px;
 }
 
-#profile1 {
-  display: block;
-  margin: 150px 300px 0px;
-  border: red solid 30px;
-}
-
 .profile1 {
   border-radius: 20px;
   border: 30px solid red;
@@ -63,7 +57,7 @@ body {
 /*placas da promoções*/
 #container p {
   background-color: red;
-  border-radius: 50px;
+  border-radius: 0px;
   padding: 5px;
 }
 
@@ -73,14 +67,14 @@ body {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   display: block;
   padding: 10px;
-  margin: 3px 100px;
+  margin: 3px 300px;
   border-radius: 50px;
   background-color: green;
 }
 
 /*fotos dos itens*/
 #container img {
-  max-width: 400px;
+  max-width: 600px;
   margin: 20px auto 0px;
   border: 10px solid green;
 }
