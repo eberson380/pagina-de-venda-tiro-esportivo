@@ -92,33 +92,6 @@ body {
   color: blue;
 }
 
-/*link 2 do mercado livre*/
-#container c {
-  font-size: 30px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  display: block;
-  margin: 3px 350px;
-  padding: 10px 0px;
-  border-radius: 50px;
-  background-color: yellow;
-  text-decoration: none;
-  color: blue;
-}
-
-/*link da shopeemercado livre*/
-#container d {
-  font-size: 30px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  display: block;
-  margin: 3px 350px;
-  padding: 10px 0px;
-  border-radius: 50px;
-  background-color: rgb(255, 115, 0);
-  text-decoration: none;
-  color: white;
-  -webkit-text-stroke: 0.1px black;
-}
-
 @media (max-width: 1200px) {
   #container {
     color: white;
